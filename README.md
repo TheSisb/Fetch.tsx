@@ -1,9 +1,9 @@
 # Fetch Component Documentation
 
-The Fetch component is a flexible React wrapper around that simplifies data fetching with built-in loading and error states.
+The Fetch component is a flexible React wrapper around [@tanstack/query](https://tanstack.com/query/latest) that simplifies data fetching with built-in loading and error states.
 Check out [the buzz on my initial post](https://x.com/TheSisb/status/1858909454441607406) for more context.
 
-## Why Use Fetch?
+## Why Use Fetch.tsx?
 Sometimes, it’s useful to colocate fetch requests directly with a React component. This approach provides a straightforward way to trigger requests and handle responses without needing to refactor code or create new components.
 
 Under the hood, Fetch simply wraps a `useQuery` call in a React component—just like you’d write `useQuery` at the top of your component. There’s no hidden magic here—just an ergonomic way to manage your data fetching.
