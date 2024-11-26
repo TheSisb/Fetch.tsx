@@ -11,7 +11,7 @@ Under the hood, Fetch simply wraps a `useQuery` call in a React component—just
 
 ## Installation
 
-Copy the [Fetch.tsx] file into your codebase and make any modifications you need.
+Copy the [Fetch.tsx file](https://github.com/TheSisb/Fetch.tsx/blob/main/Fetch.tsx) into your codebase and make any modifications you need.
 
 > Note: Be sure to update the `BASE_URL` constant in the source code to match your environment.
 
